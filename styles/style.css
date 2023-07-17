@@ -23,6 +23,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
+    padding-bottom: 80px;
 }
 .title{
     font-size: 3rem;
@@ -50,11 +51,77 @@
     padding: 5px 25px 5px 25px;
 }
 
+/* company logo section */
+.company-logo{
+    width: 80px;
+}
+.company-logo-section{
+display: flex;
+justify-content:space-around;
+align-items: center;
+gap: 20px;
+padding-right:70px;
+padding-left: 70px;
+padding-top: 30px;
+border-top: 2px solid #3a3a3a65;
+padding-bottom: 30px;
+border-bottom: 2px solid #3a3a3a65;
+}
 
+.popular{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+text-align: center;
+padding-top: 50px;
+}
 
+/* product 1st 3 images  */
+.cards3-1st-parent{
+display: flex;
+justify-content: center;
+gap:20px;
+}
 
+.product-image{
+    background: lightgray 50% / cover no-repeat;
+    width: 250px;
+}
+.product-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+.price{
+    font-size:1.15rem;
+    font-weight: 400;
+    line-height: 8px;
+    margin: 2px;
+    padding: 2px;
+}
+.product-details{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 12px;
+    margin: 0px;
+    padding: 2px;
+}
 
-
+.card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+padding: 7px;
+height: 400px;
+}
 
 /* responsive mode start */
 @media screen and (max-width: 576px)
@@ -91,4 +158,10 @@
 justify-content: center;
 
 }
+
+.company-logo-section{
+    flex-wrap: wrap;
+    padding:10px;
+    }
+
     }
