@@ -1,0 +1,19 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 15px;
+    font-size: 0.7rem;
+}
+
