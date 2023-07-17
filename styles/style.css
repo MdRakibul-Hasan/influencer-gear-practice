@@ -87,8 +87,7 @@ gap:20px;
 }
 
 .product-image{
-    background: lightgray 50% / cover no-repeat;
-    width: 250px;
+    width: 100%;
 }
 .product-title{
     font-size: 1.3rem;
@@ -96,6 +95,7 @@ gap:20px;
     line-height: 20px;
     margin: 0px;
     padding: 5px;
+
 }
 .price{
     font-size:1.15rem;
@@ -112,7 +112,7 @@ gap:20px;
     padding: 2px;
 }
 
-.card-left{
+.card-child{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -122,6 +122,19 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 padding: 7px;
 height: 400px;
 }
+
+/* see more */
+.seemore{
+    text-align: right;   
+}
+.seemore h3{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 100px;
+}
+
+
 
 /* responsive mode start */
 @media screen and (max-width: 576px)
@@ -163,5 +176,50 @@ justify-content: center;
     flex-wrap: wrap;
     padding:10px;
     }
+
+/* 1st card section */
+
+.cards3-1st-parent{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.card-child{
+display: flex;
+flex-direction: column;
+padding: 7px;
+height: 400px;
+width: fit-content;
+margin: auto;
+}
+.product-image{
+    width: fit-content;
+    margin: auto;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+
+} 
+.hero-title p {
+    font-size: 0.7rem;
+    padding-top: 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+/* See more */
+.seemore h3{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-right: 60px;
+}
 
     }
