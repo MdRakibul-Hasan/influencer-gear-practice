@@ -66,6 +66,7 @@ padding-top: 30px;
 border-top: 2px solid #3a3a3a65;
 padding-bottom: 30px;
 border-bottom: 2px solid #3a3a3a65;
+
 }
 
 .popular{
@@ -132,6 +133,23 @@ height: 400px;
     font-size: 1rem;
     font-weight: 600;
     padding-right: 100px;
+}
+
+/* Feature section */
+.feature-product-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.title-feature{
+    font-size: 2.1rem;
+    font-weight: 600;
 }
 
 
@@ -220,6 +238,21 @@ margin: auto;
     font-size: 0.8rem;
     font-weight: 500;
     padding-right: 60px;
+}
+
+/* feature section */
+.feature-product-parent{
+    display: flex;
+flex-direction: column;
+flex-direction: column-reverse;
+}
+.feature-image{
+    width: 100%;
+}
+
+.cards3-1st-parent{
+    margin: 0%;
+    padding: 0%;
 }
 
     }
